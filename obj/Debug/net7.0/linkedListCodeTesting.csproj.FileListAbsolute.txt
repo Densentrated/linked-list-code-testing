@@ -1,0 +1,15 @@
+C:\Users\there\OneDrive\Documents\Projects\linkedListCodeTesting\bin\Debug\net7.0\linkedListCodeTesting.exe
+C:\Users\there\OneDrive\Documents\Projects\linkedListCodeTesting\bin\Debug\net7.0\linkedListCodeTesting.deps.json
+C:\Users\there\OneDrive\Documents\Projects\linkedListCodeTesting\bin\Debug\net7.0\linkedListCodeTesting.runtimeconfig.json
+C:\Users\there\OneDrive\Documents\Projects\linkedListCodeTesting\bin\Debug\net7.0\linkedListCodeTesting.dll
+C:\Users\there\OneDrive\Documents\Projects\linkedListCodeTesting\bin\Debug\net7.0\linkedListCodeTesting.pdb
+C:\Users\there\OneDrive\Documents\Projects\linkedListCodeTesting\obj\Debug\net7.0\linkedListCodeTesting.csproj.AssemblyReference.cache
+C:\Users\there\OneDrive\Documents\Projects\linkedListCodeTesting\obj\Debug\net7.0\linkedListCodeTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\there\OneDrive\Documents\Projects\linkedListCodeTesting\obj\Debug\net7.0\linkedListCodeTesting.AssemblyInfoInputs.cache
+C:\Users\there\OneDrive\Documents\Projects\linkedListCodeTesting\obj\Debug\net7.0\linkedListCodeTesting.AssemblyInfo.cs
+C:\Users\there\OneDrive\Documents\Projects\linkedListCodeTesting\obj\Debug\net7.0\linkedListCodeTesting.csproj.CoreCompileInputs.cache
+C:\Users\there\OneDrive\Documents\Projects\linkedListCodeTesting\obj\Debug\net7.0\linkedListCodeTesting.dll
+C:\Users\there\OneDrive\Documents\Projects\linkedListCodeTesting\obj\Debug\net7.0\refint\linkedListCodeTesting.dll
+C:\Users\there\OneDrive\Documents\Projects\linkedListCodeTesting\obj\Debug\net7.0\linkedListCodeTesting.pdb
+C:\Users\there\OneDrive\Documents\Projects\linkedListCodeTesting\obj\Debug\net7.0\linkedListCodeTesting.genruntimeconfig.cache
+C:\Users\there\OneDrive\Documents\Projects\linkedListCodeTesting\obj\Debug\net7.0\ref\linkedListCodeTesting.dll
