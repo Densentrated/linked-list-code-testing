@@ -16,5 +16,16 @@ static void Main(string[] args)
         tasksOfToday.AddObjectiveToHead(("Sleep", 0500, 60*7));
         tasksOfToday.AddObjectiveByTime(("Floss", 0730, 10));
         tasksOfToday.Print();
+
+        Console.WriteLine("\r\n");
+        Console.WriteLine(tasksOfToday.head.data);
+
+        Console.WriteLine(tasksOfToday.head.next.data);
+  
+        Console.WriteLine(tasksOfToday.head.next.next.data);
+
+        tasksOfToday.RemoveHead();
+        tasksOfToday.Print();
+        
     }
 }

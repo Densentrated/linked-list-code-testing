@@ -87,6 +87,15 @@ namespace objectiveList
                 head = temp;
             }
         }
+
+        // removes the objective at the head of the list
+        public void RemoveHead()
+        {
+            if (head != null)
+            {
+                head = head.next;
+            }
+        }
         
         // adds objective to tail of list
         public void AddObjectiveToTail((string, int, int) data)
