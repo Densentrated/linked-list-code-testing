@@ -3,7 +3,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Linq;
-using taskList;
+using objectiveList;
 
 namespace CustomLinkedList
 {
@@ -122,18 +122,13 @@ namespace CustomLinkedList
     {
         static void Main(string[] args)
         {
-            MyList list = new MyList();
-            list.AddToTail(5);
-            list.AddToTail(7);
-            list.AddToTail(12);
-            list.AddToTail(19);
-            list.AddToTail(21);
-            list.AddToTail(25);
-            list.AddSorted(15);
-            list.Print();
-            
-            Task todayTask= new Task(("brush teeth"));
-            Console.WriteLine(todayTask.Print());
+        
+            ObjectiveList tasksOfToday = new ObjectiveList();
+            tasksOfToday.AddObjectiveToTail(("Wake up", 0600, 0));
+            tasksOfToday.AddObjectiveToTail(("Eat breakfast", 0700, 30));
+            tasksOfToday.AddObjectiveToTail(("Brush Teeth", 0800, 30));
+            tasksOfToday.Print();
+
 
         }
     }
