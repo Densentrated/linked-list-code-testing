@@ -21,7 +21,7 @@ namespace objectiveList
         }
         
         
-        // adds an objective to the tail
+        // adds an objective to the tail of the list
         public void AddObjectiveToTail((string, int, int) data)
         {
             if (next == null)
@@ -34,6 +34,24 @@ namespace objectiveList
             }
         }
 
+        public void AddObjectiveByTime((string,int,int) data)
+        {
+            if (next == null)
+            {
+                next = new Objective(data);
+            }
+            else if (data.Item2 < next.data.Item2)
+            {
+                Objective temp = new Objective (data);
+                temp.next = this.next;
+                this.next = temp;
+            }
+            else
+            {
+                next.AddObjectiveByTime(data);
+            }
+        }
+        
         // method that prints the current task
         public void Print()
         {
@@ -55,6 +73,22 @@ namespace objectiveList
             head = null;
         }
 
+        // adds an objective to the head of the list
+        public void AddObjectiveToHead((string, int, int) data)
+        {
+            if(head == null)
+            {
+                head = new Objective(data);
+            }
+            else
+            {
+                Objective temp = new Objective(data);
+                temp.next = head;
+                head = temp;
+            }
+        }
+        
+        // adds objective to tail of list
         public void AddObjectiveToTail((string, int, int) data)
         {
             if (head == null)
@@ -64,6 +98,23 @@ namespace objectiveList
             else
             {
                 head.AddObjectiveToTail(data);
+            }
+        }
+
+        // adds objective to the list using the time
+        public void AddObjectiveByTime((string, int, int) data)
+        {
+            if (head == null)
+            {
+                head = new Objective(data);
+            }
+            else if (data.Item2 < head.data.Item2)
+            {
+                AddObjectiveToHead(data);
+            }
+            else
+            {
+                head.AddObjectiveByTime(data);
             }
         }
 
