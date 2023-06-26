@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QuJzxsyJP+pv4iQvz/0pi2D6LIgeCs1U2nvElGhdMIz1CCxfruIzk/7SrOcGiJlb2prBqhsICLacAfMY51L6zQ==",
+  "dgSpecHash": "LHCj/7nUoyKXYWMGw+rF/M7xD5GN3mspzNj5lQJkfx2SNAeX4/k6urts3QhcRJVImSDsjkh6qnu+DjfuKt+4zw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\there\\OneDrive\\Documents\\Projects\\linkedListCodeTesting\\linked-list-code-testing\\linkedListCodeTesting.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/densentrated/Projects/linked-list-code-testing/linkedListCodeTesting.csproj",
+  "expectedPackageFiles": [
+    "/home/densentrated/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.7/microsoft.aspnetcore.app.ref.7.0.7.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -24,7 +24,7 @@ static void Main(string[] args)
   
         Console.WriteLine(tasksOfToday.head.next.next.data);
 
-        tasksOfToday.RemoveHead();
+        tasksOfToday.RemoveTail();
         tasksOfToday.Print();
         
     }

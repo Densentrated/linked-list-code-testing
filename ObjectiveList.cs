@@ -34,6 +34,22 @@ namespace objectiveList
             }
         }
 
+        // removes an objective from the tail of the list
+        public void RemoveTail()
+        {
+            if (next != null)
+            {
+                if (next.next == null)
+                {
+                    next = null;
+                }
+                else
+                {
+                    next.RemoveTail();
+                }
+            }
+        }
+
         public void AddObjectiveByTime((string,int,int) data)
         {
             if (next == null)
@@ -109,6 +125,23 @@ namespace objectiveList
                 head.AddObjectiveToTail(data);
             }
         }
+
+        // removes an objective from the tail of the list
+        public void RemoveTail()
+        {
+            if (head != null)
+            {
+                if (head.next == null)
+                {
+                    head = null;
+                }
+                else
+                {
+                    head.RemoveTail();
+                }
+            }
+        }
+  
 
         // adds objective to the list using the time
         public void AddObjectiveByTime((string, int, int) data)
